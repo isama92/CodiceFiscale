@@ -29,7 +29,7 @@ public class CodiceFiscale {
         this.CF = "";
     }
 
-    public String calcolaCF() throws IOException {
+    public String calcola() throws IOException {
         this.calcolaCFCognome();
         this.calcolaCFNome();
         this.calcolaAnno();
