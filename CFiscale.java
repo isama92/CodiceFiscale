@@ -4,8 +4,7 @@ import java.io.IOException;
 
 public class CFiscale {
     public static void main(String[] args) throws IOException {
-        CodiceFiscale codiceFiscale = new CodiceFiscale("Marpione", "Giuseppe", 19, 11, 1923, 'm', "Roma");
-        String CF = codiceFiscale.calcola();
+        String CF = CodiceFiscale.calcola("Telesca", "Leonardo", 27, 11, 1990, 'm', "Melfi");
         System.out.println(CF);
     }
 }
